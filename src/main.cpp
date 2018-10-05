@@ -3,7 +3,7 @@
 void setup()
 {
     Serial.begin(115200);
-    WiFi.softAP("Coucou","Coucoumdp",2,0,1);
+    WiFi.softAP("Coucou","Coucoumdp");
 }
 
 void loop()
